@@ -8,7 +8,6 @@
 
   
 ## Dependencie
-
 * Equatable
 
   
