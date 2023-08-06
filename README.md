@@ -1,16 +1,14 @@
-# equatableflutterdev
 
-A new Flutter project.
+# Flutter Equatable 
+## Demo
 
-## Getting Started
+<img width="362" alt="Bildschirmfoto 2023-08-06 um 15 10 00" src="https://github.com/zaynrix/equatablemitflutter/assets/28483872/c6ea09ba-0c21-45df-b1a4-32e7d37ae712">
 
-This project is a starting point for a Flutter application.
+<img width="363" alt="Bildschirmfoto 2023-08-06 um 15 10 07" src="https://github.com/zaynrix/equatablemitflutter/assets/28483872/c8ba8d66-c86e-499e-97c7-3ed2b7b146b1">
 
-A few resources to get you started if this is your first Flutter project:
+  
+## Dependencie
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Equatable
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
