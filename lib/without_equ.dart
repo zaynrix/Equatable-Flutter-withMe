@@ -1,3 +1,4 @@
+import 'package:equatableflutterdev/widgets.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -20,12 +21,12 @@ class _WithoutEquState extends State<WithoutEqu> {
     phoneImage:
         'https://www.backmarket.de/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D828/https://d1eh9yux7w8iql.cloudfront.net/product_images/418120_98f32291-8c1e-452f-b0cb-2bcad0652b2f.jpg',
   );
-  final Phone iphone3 = Phone(
+  final Phone iphone2 = Phone(
     phoneName: 'Iphone 122',
     phoneImage:
         'https://www.backmarket.de/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D828/https://d1eh9yux7w8iql.cloudfront.net/product_images/418120_98f32291-8c1e-452f-b0cb-2bcad0652b2f.jpg',
   );
-  final Phone iphone2 = Phone(
+  final Phone iphone3 = Phone(
     phoneName: 'Iphone 122',
     phoneImage:
         'https://www.backmarket.de/cdn-cgi/image/format%3Dauto%2Cquality%3D75%2Cwidth%3D828/https://d1eh9yux7w8iql.cloudfront.net/product_images/418120_98f32291-8c1e-452f-b0cb-2bcad0652b2f.jpg',
@@ -62,12 +63,12 @@ class _WithoutEquState extends State<WithoutEqu> {
           children: [
             Row(
               children: [
-                phoneWidget(
-                    phoneName: iphone.phoneName, phoneImage: iphone.phoneImage),
+                PhoneCardWidget(
+                    title: iphone.phoneName, image: iphone.phoneImage),
                 const Spacer(),
-                phoneWidget(
-                  phoneImage: iphone2.phoneImage,
-                  phoneName: iphone2.phoneName,
+                PhoneCardWidget(
+                  title: iphone2.phoneName,
+                  image: iphone2.phoneImage,
                 ),
               ],
             ),
@@ -88,33 +89,6 @@ class _WithoutEquState extends State<WithoutEqu> {
             ),
           ],
         ),
-      ),
-    );
-  }
-
-  phoneWidget({
-    required phoneImage,
-    required phoneName,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 10),
-      child: Column(
-        children: [
-          Image.network(
-            phoneImage,
-            width: 170,
-            height: 300,
-            fit: BoxFit.contain,
-          ),
-          const SizedBox(height: 5),
-          Text(
-            phoneName,
-            style: const TextStyle(
-              fontSize: 15,
-              fontWeight: FontWeight.w800,
-            ),
-          ),
-        ],
       ),
     );
   }
