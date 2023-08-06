@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class WithoutEqu extends StatefulWidget {
@@ -31,13 +32,17 @@ class _WithoutEquState extends State<WithoutEqu> {
   );
 
   comparePhone(BuildContext context) {
-    bool what = iphone == iphone2;
+    bool isEqual = iphone == iphone2;
 
-    print("iphone ${iphone.hashCode}");
-    print("iphone2 ${iphone2.hashCode}");
-    print("iphone3 ${iphone3.hashCode}");
-    print("samsung ${samsung.hashCode}");
-    print("what $what");
+    if (kDebugMode) {
+      print("Without");
+      print("iphone  object/ ${iphone.hashCode}");
+      print("iphone2 object/ ${iphone2.hashCode}");
+      print("iphone3 object/ ${iphone3.hashCode}");
+      print("samsung object/ ${samsung.hashCode}");
+      print("isEqual $isEqual");
+    }
+
     if (iphone == iphone2) {
       setState(() {});
       result = "EQUAL";
