@@ -1,25 +1,14 @@
 
-# Flutter Pagination With BLoC
-
-Bu GitHub deposu, Flutter uygulamalarında sayfalama işlemlerini yapmak için BLoC (Business Logic Component) tasarım kalıbını kullanmayı gösterir. Depoda, sayfalama işlemleri için bir BLoC sınıfı ve sayfalama işlemlerini gerçekleştirmek için gerekli olan diğer sınıflar ve widgetlar bulunmaktadır. Bu proje, sayfalama işlemlerini daha organize ve okunaklı hale getirmek için kullanabileceğiniz bir örnektir.
-### en-us
-This GitHub repository demonstrates the use of the BLoC (Business Logic Component) design pattern for pagination in Flutter applications. The repository includes a BLoC class for pagination, as well as other classes and widgets necessary for implementing pagination. This project serves as an example that you can use to make pagination more organized and readable in your own projects.
-
-
+# Flutter Equatable
 ## Demo
 
+<img width="362" alt="Bildschirmfoto 2023-08-06 um 15 10 00" src="https://github.com/zaynrix/equatablemitflutter/assets/28483872/c6ea09ba-0c21-45df-b1a4-32e7d37ae712">
 
-
-https://user-images.githubusercontent.com/50443794/213009946-d37588a7-f124-4d29-824b-be836724db74.mp4
-
+<img width="363" alt="Bildschirmfoto 2023-08-06 um 15 10 07" src="https://github.com/zaynrix/equatablemitflutter/assets/28483872/c8ba8d66-c86e-499e-97c7-3ed2b7b146b1">
 
 
 ## Dependencie
 
-* bloc
-* flutter_bloc
-* bloc_concurrency
-* equatable
-* dio
+* Equatable
 
   
